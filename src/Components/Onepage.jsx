@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom'
 import { productsData } from '../Data/Products';
 
 function Onepage() {
-    const {id} = useParams();
+    const {id} = useParams()
     const dataVal = productsData.find((e)=>e.id === id);
     console.log(id)
     

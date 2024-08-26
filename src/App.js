@@ -12,6 +12,8 @@ import Services from './Components/Services'
 import Hooks from './Data/Hooks'
 import Dummy from './Data/Dummy'
 import Onepage from './Components/Onepage'
+import Compone from './Datapassing/Compone'
+import CompA from './Context/CompA'
 function App() {
   return (
     <div>
@@ -26,6 +28,8 @@ function App() {
           <Route path='/services' element={<Services />} />
           <Route path='/hooks' element={<Hooks />} />
           <Route path='/dummy' element={<Dummy />} />
+          <Route path='/props' element={<Compone />} />
+          <Route path='/context' element={<CompA />} />
         </Routes>
       </Router>
       
