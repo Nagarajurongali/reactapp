@@ -19,7 +19,7 @@ function App() {
     <div>
       <Router>
         <Routes>
-          <Route path='/' element={<Login />} />
+          <Route path='/reactapp' element={<Login />} />
           <Route path='/signup' element={<Signup />} />
           <Route path='*' element={<NotFound />} />
           <Route path='/dashboard' element={<Dashboard />} />
