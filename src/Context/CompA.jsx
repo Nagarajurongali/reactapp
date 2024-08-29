@@ -7,7 +7,7 @@ function CompA() {
 
   return (
     <div className='box'>
-        CompAaaa
+        newComp
 
         <userContaxt.Provider value={"data Passing to A to D"}>
             <CompB  />
