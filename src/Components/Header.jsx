@@ -8,7 +8,7 @@ function Header() {
         <Link to='/dashboard' ><li><DashboardIcon /> Dashboard</li></Link>
         <Link to='/about' ><li>About</li></Link>
         <Link to='/services'><li>Services</li></Link>
-        <Link to='/'><li>logout</li></Link>
+        <Link to='/reactapp'><li>logout</li></Link>
         
       </ul>
     </div>
